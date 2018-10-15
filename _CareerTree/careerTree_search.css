@@ -1,0 +1,44 @@
+#searchBar
+{
+ background-color: rgba(150, 250, 150, 1);	
+ color: white;
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 7%;
+ width: 100%;		
+ 
+ padding: 5px;
+}
+
+.listing
+{
+ background-color: rgba(135, 236, 167, 0.9);
+ margin-top: 0;
+ padding-top: 0;
+}
+
+.listingImage
+{
+ float: left;
+ width: 15%;
+ margin-top: 0;
+ padding-top: 0;
+ margin-right: 3%;
+}
+
+
+.listingHeader
+{
+ width: 75%;
+ float: right;
+ padding-left: 3%;
+}
+
+.listingDescription
+{
+ width: 75%;
+ float: right;
+ margin-left: 3%;
+
+}

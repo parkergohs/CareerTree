@@ -1,0 +1,84 @@
+body
+{
+ background-color: rgba(229, 243, 254, 0.9);	
+ //background-image: url("rsc/careerTree_bgWide.png");
+ background-size: auto 100%;
+}
+
+li
+{
+ display: inline-block;
+}
+
+button
+{
+ background-color: #3d9;
+ color: #fff;
+ border-color: #bdd; 
+ border-radius: 4px;	
+}
+
+button:hover
+{
+ background-color: #3db;
+ color: #eee;
+ border-color: #3db; 
+}
+
+a
+{
+ text-decoration: none;
+ color: white; 
+ margin-right: 40px;
+}
+
+input
+{
+ border-radius: 4px;	
+}
+
+select
+{
+ border-radius: 4px;	
+}
+
+#headerBar
+{
+ background-color: rgba(100, 200, 100, 1);	
+ color: white;
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 7%;
+ width: 100%;	
+}
+
+#signInBar
+{
+ //float: right;
+ position: absolute;
+ top: 0;
+ right: 0; 
+}
+
+#mainArea
+{
+ background-color: rgba(229, 243, 254, 1);	
+  background-image: url("rsc/careerTree_bgWide.png");
+background-size: 100% auto;
+ color: black;
+ position: absolute;
+ top: 7%;
+ left: 0;
+ height: 90%;
+ width: 100%;	
+ overflow-y: scroll;
+}
+
+.listing
+{
+ background-color: rgba(120, 200, 140, 0.8);
+ width: 100%;
+ 
+ 
+}

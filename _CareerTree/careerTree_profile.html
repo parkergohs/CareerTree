@@ -1,0 +1,87 @@
+<!-- Career Tree
+-
+-Filename: careerTree_profile.html
+-
+-Notes:
+-
+-To Do:
+-
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+
+ <title>Career Tree - Profile</title>
+ <link rel="icon" href="rsc/careerTreeLogo.png">
+ <link rel="stylesheet" href="careerTree_index.css">
+ <link rel="stylesheet" href="careerTree_profile.css">
+</head>
+
+<body>
+<div id="headerBar"> 
+ <ul>
+  <li><a href="careerTree_index.html"><b>CareerTree</b></a></li>
+  <li><a href="careerTree_profile.html">Profile</a></li>
+  <li><a href="careerTree_search.html">Search</a></li>
+ </ul> 
+ <ul id="signInBar">
+  <li><input placeholder="email"></input></li>
+  <li><input placeholder="password"></input></li>
+  <li><button onclick="signIn()">Sign In</button></li>
+  <li><button onclick="signUp()">Sign Up</button></li>
+ </ul>  
+</div>
+
+<div id="mainArea"> 
+ <ul id="profileTabBar">
+  <li><button onclick="displayProfileSection('intro')">Intro</button></li>
+  <li><button onclick="displayProfileSection('resume')">Resume</button></li>
+  <li><button onclick="displayProfileSection('coverLetter')">Cover Letter</button></li>
+  <li><button onclick="displayProfileSection('portfolio')">Portfolio</button></li>
+  <li><button onclick="displayProfileSection('education')">Education</button></li>
+  <li><button onclick="displayProfileSection('experience')">Experience</button></li>
+  <li><button onclick="displayProfileSection('references')">References</button></li>
+ </ul>
+ 
+ 
+<h1>Profile</h1>
+
+ <div id="introSection">
+  <h2>Intro</h2>
+ </div>
+ 
+ <div id="resumeSection">
+  <h2>Resume</h2>
+ </div>
+ 
+ <div id="coverLetterSection">
+  <h2>Cover Letter</h2>
+ </div>
+ 
+ <div id="portfolioSection">
+  <h2>Portfolio</h2>
+ </div>
+ 
+ <div id="educationSection">
+  <h2>Education</h2>
+ </div>
+ 
+ <div id="experienceSection">
+  <h2>Experience</h2>
+ </div>
+ 
+ <div id="referencesSection">
+  <h2>References</h2>
+ </div>
+ 
+ <div id="notesSection">
+  <h2>Notes to potential employers</h2>
+ </div>
+
+</div>
+
+<script src="../../SharedResources/jquery.js"></script>
+<script src="careerTree_profile.js"></script>
+</body>
+</html>
